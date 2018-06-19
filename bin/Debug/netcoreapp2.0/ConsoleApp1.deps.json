@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "134e533a9c5dba3462742d36d794439ebf44df96"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "BouncyCastle": "1.8.2",
+          "BouncyCastle.Crypto.dll": "1.8.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "BouncyCastle/1.8.2": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {}
+        }
+      },
+      "BouncyCastle.Crypto.dll/1.8.1": {},
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle/1.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1VNcrEowB9ucPhsZRENMx4GFbzJSvQ8P0XF+ZEEMfam8loKVRBPVZVjwVHx95lEs2NF6QSeED8WIQhoQ02q9PQ==",
+      "path": "bouncycastle/1.8.2",
+      "hashPath": "bouncycastle.1.8.2.nupkg.sha512"
+    },
+    "BouncyCastle.Crypto.dll/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eT+ncIOBgR8qakQ2Oc3Le0gVAcfGNBQi0EGJlPXniRkNMpRSekWQOqUwWOMutk6g4DYu4mu4g3JYASb/50tquA==",
+      "path": "bouncycastle.crypto.dll/1.8.1",
+      "hashPath": "bouncycastle.crypto.dll.1.8.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    }
+  }
+}
